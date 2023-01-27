@@ -17,8 +17,6 @@ $header = "guilherme.edmilson44@gmail.com"."\r\n"
         ."Replay-to:".$email "\e\n".
         ."X-Mailer:PHP/".phpversion();
 
-if(mail($to,$subject,$Body,$header))
-
-
+if(Email($to,$subject,$Body,$header))
 
 ?>
